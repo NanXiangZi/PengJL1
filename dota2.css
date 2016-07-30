@@ -1,0 +1,97 @@
+body{
+	background: url("img/bjt.jpg") no-repeat top center;
+	height: 90px;
+	background-color:rgb(11,6,10);
+}
+.bjt{
+    width:1002px;
+	overflow:hidden;
+	margin-left:auto; 
+	margin-right: auto;
+}
+.logo{
+	position:relative;
+	top:20px;
+}
+#yaoqingsai{
+	text-indent: -9999px;
+	position:absolute;
+	top:80px;
+	width:1002px;
+	height: 400px;
+}
+.video_box{
+position:relative;
+top:113px;
+left:200px;
+}
+#leftbottom{
+	position:relative;
+	top:450px;
+	list-style-type: none;
+	
+}
+#leftbottom li{
+	width: 200px;
+    height: 109px;
+
+}
+#leftbottom img{
+	opacity: 0;
+   transition:opacity 2s;
+}
+
+#leftbottom img:hover{
+   opacity: 1;
+}
+
+#rightbottom{
+	position:relative;
+	top:-228px;
+	left:800px;
+	list-style-type: none;
+	
+}
+#rightbottom li{
+	width: 200px;
+    height: 109px;
+}
+#rightbottom img{
+	opacity: 0;
+   transition:opacity 2s;
+}
+
+#rightbottom img:hover{
+   opacity: 1;
+}
+.TheContact{
+	width: 200px;
+	height: 86px;
+background: white;
+float: left;
+opacity: 0;
+transition:opacity 2s;
+}
+#TC{
+	position: relative;
+top:-199px;
+}
+.TheContact:hover{
+   opacity: 0.1;
+}
+.footer{
+	position:relative;
+top:-100px;
+left:50px;
+color: #959595;
+font-size: 12px;
+
+}
+.footerImage{
+	width: 150px;
+	float: left;
+}
+.footerText{
+	width:700px;
+	float: left;
+}
